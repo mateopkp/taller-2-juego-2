@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\snd_exploenemy</sound>
     <sound>sound\snd_explomyplane</sound>
+    <sound>sound\snd_explodamage</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="islas">
@@ -26,6 +27,8 @@
     <sprite>sprites\spr_explomyplane</sprite>
     <sprite>sprites\spr_bottom</sprite>
     <sprite>sprites\spr_life</sprite>
+    <sprite>sprites\spr_enemybullet1</sprite>
+    <sprite>sprites\spr_bullet2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_water</background>
@@ -37,7 +40,8 @@
     <object>objects\obj_explomyplane</object>
     <objects name="enemigos">
       <object>objects\obj_enemigo_1</object>
-      <object>objects\obj_enemigo2</object>
+      <object>objects\obj_enemy2</object>
+      <object>objects\obj_enemigo_3</object>
       <object>objects\obj_enemigo3</object>
       <object>objects\obj_enemigo4</object>
       <object>objects\obj_exploenemy</object>
@@ -49,6 +53,8 @@
     </objects>
     <object>objects\obj_controller_enemy</object>
     <object>objects\obj_controller_life</object>
+    <object>objects\obj_enemybullet</object>
+    <object>objects\obj_enemybullet2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\nivel_1</room>

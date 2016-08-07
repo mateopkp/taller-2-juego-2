@@ -38,7 +38,7 @@ enemigo3_width = sprite_get_height(spr_enemigo3);
 enemigo3_height = sprite_get_height(spr_enemigo3);
 
 instance_create(irandom_range(enemigo1_width/2,room_width - enemigo1_width/2),-enemigo1_height/2,obj_enemigo_1);
-instance_create(irandom_range(enemigo2_width/2,room_width - enemigo2_width/2),-enemigo2_height/2,obj_enemigo2);
+instance_create(irandom_range(enemigo2_width/2,room_width - enemigo2_width/2),-enemigo2_height/2,obj_enemy2);
 alarm[0] = 200;
 alarm[1] = 1000
 
@@ -90,7 +90,7 @@ alarm[2] = 1000
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(irandom_range(enemigo2_width/2,room_width - enemigo2_width/2),-enemigo2_height/2,obj_enemigo2);
+            <string>instance_create(irandom_range(enemigo2_width/2,room_width - enemigo2_width/2),-enemigo2_height/2,obj_enemy2);
 alarm[1]=500;
 </string>
           </argument>

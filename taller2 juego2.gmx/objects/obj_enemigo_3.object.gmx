@@ -119,7 +119,7 @@ instance_create(x,y,obj_exploenemy);
 //x=random(room_width); antes
 x=irandom_range(sprite_width/2,room_width-sprite_width/2);
 y=-sprite_height/2;
-score= score+10;
+score= score+15;
 show_debug_message(score);
 </string>
           </argument>

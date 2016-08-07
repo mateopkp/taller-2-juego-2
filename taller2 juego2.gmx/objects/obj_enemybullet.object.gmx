@@ -72,8 +72,8 @@
           <argument>
             <kind>1</kind>
             <string>audio_play_sound(snd_explodamage,10,false);
-instance_destroy;
-health-=5;
+instance_destroy();
+health -=5;
 </string>
           </argument>
         </arguments>

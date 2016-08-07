@@ -118,7 +118,7 @@ instance_create(x,y,obj_exploenemy);
 x=irandom_range(sprite_width/2,room_width-sprite_width/2);
 y=-sprite_height/2;
 score= score+5;
-show_debug_message(score);
+show_debug_message("score:"+string(score));
 </string>
           </argument>
         </arguments>

@@ -10,13 +10,6 @@
     <sound>sound\snd_explodamage</sound>
   </sounds>
   <sprites name="sprites">
-    <sprites name="islas">
-      <sprite>sprites\spr_island1</sprite>
-      <sprite>sprites\spr_island2</sprite>
-      <sprite>sprites\spr_island3</sprite>
-    </sprites>
-    <sprite>sprites\spr_myplane</sprite>
-    <sprite>sprites\spr_bullet</sprite>
     <sprites name="enemigos">
       <sprite>sprites\spr_enemigo1</sprite>
       <sprite>sprites\spr_enemigo2</sprite>
@@ -24,6 +17,13 @@
       <sprite>sprites\spr_enemigo4</sprite>
       <sprite>sprites\spr_exploene</sprite>
     </sprites>
+    <sprites name="islas">
+      <sprite>sprites\spr_island1</sprite>
+      <sprite>sprites\spr_island2</sprite>
+      <sprite>sprites\spr_island3</sprite>
+    </sprites>
+    <sprite>sprites\spr_myplane</sprite>
+    <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_explomyplane</sprite>
     <sprite>sprites\spr_bottom</sprite>
     <sprite>sprites\spr_life</sprite>
@@ -42,7 +42,6 @@
       <object>objects\obj_enemigo_1</object>
       <object>objects\obj_enemy2</object>
       <object>objects\obj_enemigo_3</object>
-      <object>objects\obj_enemigo3</object>
       <object>objects\obj_enemigo4</object>
       <object>objects\obj_exploenemy</object>
     </objects>

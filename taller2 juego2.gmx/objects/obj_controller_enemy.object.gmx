@@ -37,12 +37,43 @@ enemigo2_height = sprite_get_height(spr_enemigo2);
 enemigo3_width = sprite_get_height(spr_enemigo3);
 enemigo3_height = sprite_get_height(spr_enemigo3);
 
+enemigo4_width = sprite_get_height(spr_enemigo4);
+enemigo4_height = sprite_get_height(spr_enemigo4);
+
+
 instance_create(irandom_range(enemigo1_width/2,room_width - enemigo1_width/2),-enemigo1_height/2,obj_enemigo_1);
 instance_create(irandom_range(enemigo2_width/2,room_width - enemigo2_width/2),-enemigo2_height/2,obj_enemy2);
+
 alarm[0] = 200;
 alarm[1] = 1000
-
+alarm[3]= 3000
 alarm[2] = 2000
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///enemigo 3
+
+instance_create(irandom_range(enemigo4_width/2,room_width - enemigo4_width/2),-enemigo4_height/2,obj_enemigo4);
+alarm[3]=300
 </string>
           </argument>
         </arguments>
